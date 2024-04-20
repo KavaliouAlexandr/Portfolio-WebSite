@@ -1,4 +1,4 @@
-/*New Fonts*/
+/************ Custom Font ************/
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -15,6 +15,7 @@
 	font-weight: 400;
 }
 
+/************ Default Css ************/
 * {
   margin: 0;
   padding: 0;
@@ -30,12 +31,12 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #282c34 !important;
-  color: white !important;
+  background-color: #4d4d4d !important;
+  color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
 
-.h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -86,6 +87,7 @@ nav.navbar {
   padding: 18px 0;
   position: fixed;
   width: 100%;
+  max-height: 50%;
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
