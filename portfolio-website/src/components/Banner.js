@@ -51,6 +51,13 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my portfolio </span>
                 <h1>{`Hi I'm Alexandr Kavaliou`}</h1>
                 <h1><span className="wrap">{text}</span></h1>
+                <p>I am a highly motivated software developer who works
+                            on web applications. After working with many
+                            technologies, I have made a decision to move forward
+                            with Front-end. In my spare time during my studies, I
+                            worked as a freelancer. I graduated from university in
+                            May 2024 and now I am open to a full-time job.
+                        </p>
                 <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25} /></button>
             </Container>
         </section>
