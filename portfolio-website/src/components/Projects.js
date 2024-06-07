@@ -4,6 +4,7 @@ import projImg2 from "../assets/img/ProjImg2.png";
 import projImg3 from "../assets/img/ProjImg3.png";
 import projImg4 from "../assets/img/ProjImg4.png";
 import projImg5 from "../assets/img/ProjImg5.png";
+import projImg6 from "../assets/img/ProjImg6.png";
 import { ProjectCard } from "./ProjectCard";
 
 
@@ -36,9 +37,9 @@ export const  Projects = () => {
           imgUrl: projImg5,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
+          title: "Simple To-Do List",
+          description: "Using TypeScript, React, Bootstrap",
+          imgUrl: projImg6,
         },
       ];
     
