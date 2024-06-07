@@ -3,6 +3,7 @@ import projImg1 from "../assets/img/ProjImg1.png";
 import projImg2 from "../assets/img/ProjImg2.png";
 import projImg3 from "../assets/img/ProjImg3.png";
 import projImg4 from "../assets/img/ProjImg4.png";
+import projImg5 from "../assets/img/ProjImg5.png";
 import { ProjectCard } from "./ProjectCard";
 
 
@@ -30,9 +31,9 @@ export const  Projects = () => {
           imgUrl: projImg4,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
+          title: " WebSite for Gaming Store",
+          description: "Asp.Net Project with Back-End",
+          imgUrl: projImg5,
         },
         {
           title: "Business Startup",
@@ -47,7 +48,7 @@ export const  Projects = () => {
           <Row>
             <Col size={12}>
                 <h2>Projects</h2>
-                <p></p>
+                <p>This project path demonstrates my comprehensive experience and dedication to mastering various aspects of web development, from frontend to backend, ensuring I can deliver high-quality, maintainable solutions for any project.</p>
               <Row>
                     {
                       projects.map((project, index) => {
