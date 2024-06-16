@@ -5,6 +5,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 
 
@@ -31,6 +35,7 @@ const onUpdateActiveLink = (value) => {
 }
 
     return (
+        <Router>
             <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -47,10 +52,13 @@ const onUpdateActiveLink = (value) => {
                         <a href="https://www.linkedin.com/in/alexandr-kavaliou-695923203/"><img src={navIcon1} alt="" /></a>
                         <a href="/#"><img src={navIcon3} alt="" /></a>
                     </div>
-                    <button className="btn" href="#anchor"><span>Connect</span></button>
+                    <HashLink to='#connect'>
+                <button className="vvd"><span>Connect</span></button>
+              </HashLink>
                 </span>
             </Navbar.Collapse>
             </Container>
         </Navbar>
+        </Router>
     );
 }
