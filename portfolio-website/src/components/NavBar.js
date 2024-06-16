@@ -7,6 +7,7 @@ import navIcon3 from '../assets/img/nav-icon3.svg';
 
 
 
+
 export const  NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
@@ -46,7 +47,7 @@ const onUpdateActiveLink = (value) => {
                         <a href="https://www.linkedin.com/in/alexandr-kavaliou-695923203/"><img src={navIcon1} alt="" /></a>
                         <a href="/#"><img src={navIcon3} alt="" /></a>
                     </div>
-                    <button className="btn" onClick={() => console.log('connect')}><span>Connect</span></button>
+                    <button className="btn" href="#anchor"><span>Connect</span></button>
                 </span>
             </Navbar.Collapse>
             </Container>
