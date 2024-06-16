@@ -2,6 +2,11 @@ import { useState, useEffect } from "react";
 import Container from "react-bootstrap/esm/Container";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
+
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -46,6 +51,7 @@ export const Banner = () => {
 
 
     return(
+        <Router>
         <section className="banner" id="home">
             <Container className="align-items-center">
                 <span className="tagline">Welcome to my portfolio </span>
@@ -58,8 +64,11 @@ export const Banner = () => {
                             worked as a freelancer. I graduated from university in
                             May 2024 and now I am open to a full-time job.
                         </p>
-                <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25} /></button>
+                        <HashLink to='#connect'>
+                <button>Let's connect<ArrowRightCircle size={25} /></button>
+              </HashLink>
             </Container>
         </section>
+        </Router>
     )
 }
