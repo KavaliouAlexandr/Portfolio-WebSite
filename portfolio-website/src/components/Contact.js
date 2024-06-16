@@ -25,6 +25,7 @@ export const Contact = () => {
         
             if (res.success) {
             console.log("Success", res);
+            event.target.reset();
             }
         };
         
