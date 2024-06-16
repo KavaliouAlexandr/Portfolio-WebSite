@@ -50,7 +50,7 @@ export const Banner = () => {
             <Container className="align-items-center">
                 <span className="tagline">Welcome to my portfolio </span>
                 <h1>{`Hi I'm Alexandr Kavaliou`}</h1>
-                <h1><span className="wrap">{text}</span></h1>
+                <h1>{`Web Developer`}</h1>
                 <p>I am a highly motivated software developer who works
                             on web applications. After working with many
                             technologies, I have made a decision to move forward
