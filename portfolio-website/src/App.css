@@ -551,6 +551,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  /* .contact img {
+    display: none;
+  } */
+
+  .contact {
+    max-height: 800px;
+  }
+}
+
 
 /* Footer css*/
 
