@@ -55,7 +55,7 @@ export const Contact = () => {
                           </Col>
                           <Col size={12} className="px-1">
                           <textarea name="message"></textarea>
-                          <button type="submit">Submit Form</button>
+                          <button type="submit"><span>Submit Form</span></button>
                           </Col>
                         </Row>
                       </form>

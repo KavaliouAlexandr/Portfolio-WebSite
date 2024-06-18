@@ -53,7 +53,7 @@ const onUpdateActiveLink = (value) => {
                 <span className="navbar-text">
                     <div className="social-icon">
                         <a href="https://www.linkedin.com/in/alexandr-kavaliou-695923203/"><img src={navIcon1} alt="" /></a>
-                        <a href="/#"><img src={navIcon3} alt="" /></a>
+                        <a href="https://www.instagram.com/alexandrkavaliou/"><img src={navIcon3} alt="" /></a>
                     </div>
                     <HashLink to='#connect'>
                 <button className="vvd"><span>Connect</span></button>
