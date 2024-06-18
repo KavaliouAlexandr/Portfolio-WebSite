@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
@@ -11,9 +10,7 @@ export const Contact = () => {
     
     const formData = new FormData(event.target);
     
-    const name = formData.get('name');
     const email = formData.get('email');
-    const message = formData.get('message');
     
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     if (!emailPattern.test(email)) {

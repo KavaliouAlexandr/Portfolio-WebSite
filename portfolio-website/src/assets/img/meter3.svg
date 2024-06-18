@@ -3,8 +3,8 @@
 
 <defs>
 <linearGradient id="paint0_linear_16_339" x1="-12.4348" y1="91.2145" x2="228.124" y2="92.098" gradientUnits="userSpaceOnUse">
-<stop stop-color="#AA367C"/>
-<stop offset="1" stop-color="#4A2FBD"/>
+<stop stop-color="#31363F"/>
+<stop offset="1" stop-color="#76ABAE"/>
 </linearGradient>
 </defs>
 <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" font-weight="bold" fill="white">80%</text>
