@@ -64,9 +64,9 @@ export const Banner = () => {
                             worked as a freelancer. I graduated from university in
                             May 2024 and now I am open to a full-time job.
                         </p>
-                        <HashLink to='#connect'>
-                <button>Let's connect<ArrowRightCircle size={25} /></button>
-              </HashLink>
+                        <HashLink className="no-underline" to='#connect'>
+                            <button >Let's connect<ArrowRightCircle size={25} /></button>
+                        </HashLink>
             </Container>
         </section>
         </Router>
