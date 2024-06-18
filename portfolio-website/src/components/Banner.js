@@ -57,12 +57,8 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my portfolio </span>
                 <h1>{`Hi I'm Alexandr Kavaliou`}</h1>
                 <h1>{`Web Developer`}</h1>
-                <p>I am a highly motivated software developer who works
-                            on web applications. After working with many
-                            technologies, I have made a decision to move forward
-                            with Front-end. In my spare time during my studies, I
-                            worked as a freelancer. I graduated from university in
-                            May 2024 and now I am open to a full-time job.
+                <p>I am a highly motivated software developer specializing in front-end web development. With a background in various technologies, I have decided to focus my career on enhancing user experiences through front-end solutions. I bring valuable commercial experience from my time at Wanna Play. Having graduated from university in May 2024, I am now eager to leverage my expertise in a full-time role.
+
                         </p>
                         <HashLink className="no-underline" to='#connect'>
                             <button >Let's connect<ArrowRightCircle size={25} /></button>
