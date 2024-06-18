@@ -372,6 +372,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
+  
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
@@ -389,6 +390,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
+  
 }
 .project .nav.nav-pills .nav-link::before {
     content: "";
@@ -400,6 +402,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
@@ -446,6 +449,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  color: #fff;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
