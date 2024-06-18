@@ -4,6 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import CV from '../assets/KavaliouAlexandrIT.pdf';
+
+
 
 import { HashLink } from 'react-router-hash-link';
 import {
@@ -44,7 +47,7 @@ const onUpdateActiveLink = (value) => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-                <Nav.Link href="#link" className={activeLink === 'link' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('link')}>Link</Nav.Link>
+                <Nav.Link href={CV} className={activeLink === 'link' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('link')}>CV</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
@@ -54,7 +57,7 @@ const onUpdateActiveLink = (value) => {
                     </div>
                     <HashLink to='#connect'>
                 <button className="vvd"><span>Connect</span></button>
-              </HashLink>
+                    </HashLink>
                 </span>
             </Navbar.Collapse>
             </Container>
