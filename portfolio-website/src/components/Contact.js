@@ -69,7 +69,7 @@ export const Contact = () => {
                           <input type="email" name="email" placeholder="Email"/>
                           </Col>
                           <Col size={12} className="px-1">
-                          <textarea name="message" placeholder="Type your messege here"></textarea>
+                          <textarea name="message" placeholder="Type your message here"></textarea>
                           <button type="submit"><span>Submit Form</span></button>
                           </Col>
                         </Row>

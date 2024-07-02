@@ -45,9 +45,6 @@ export const  Skills = () => {
                         <p>I possess extensive knowledge and experience in a variety of technologies, enabling me to effectively develop modern web applications.  My stack includes:</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="" />
-                            </div>
-                            <div className="item">
                                 <img src={meter2} alt=""/>
                             </div>
                             <div className="item">
@@ -55,6 +52,9 @@ export const  Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter4} alt=""/>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="" />
                             </div>
                             <div className="item">
                                 <img src={meter5} alt=""/>
