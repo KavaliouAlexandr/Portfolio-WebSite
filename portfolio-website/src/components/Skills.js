@@ -6,6 +6,11 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import meter4 from "../assets/img/meter4.svg";
 import meter5 from "../assets/img/meter5.svg";
+import meter6 from "../assets/img/meter6.svg";
+import meter7 from "../assets/img/meter7.svg";
+import meter8 from "../assets/img/meter8.svg";
+import meter9 from "../assets/img/meter9.svg";
+import meter10 from "../assets/img/meter10.svg";
 
 export const  Skills = () => {
     const responsive = {
@@ -40,44 +45,34 @@ export const  Skills = () => {
                         <p>I possess extensive knowledge and experience in a variety of technologies, enabling me to effectively develop modern web applications.  My stack includes:</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
-                                <img src={meter5} alt="Image" />
-                                <h5>HTML</h5>
+                                <img src={meter1} alt="" />
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
-                                <h5>JavaScript</h5>
+                                <img src={meter2} alt=""/>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>TypeScript</h5>
+                                <img src={meter3} alt="" />
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Angular</h5>
+                                <img src={meter4} alt=""/>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Express</h5>
+                                <img src={meter5} alt=""/>
                             </div>
                             <div className="item">
-                                <img src={meter5} alt="Image" />
-                                <h5>CSS</h5>
+                                <img src={meter6} alt=""/>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>React</h5>
+                                <img src={meter7} alt=""/>
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
-                                <h5>GIT</h5>
+                                <img src={meter8} alt=""/>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>MongoDB</h5>
+                                <img src={meter9} alt=""/>
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
-                                <h5>RestAPI</h5>
+                                <img src={meter10} alt=""/>
                             </div>
                         </Carousel>
                     </div>

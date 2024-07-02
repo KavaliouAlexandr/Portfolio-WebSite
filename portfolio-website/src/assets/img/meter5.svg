@@ -7,6 +7,6 @@
 <stop offset="1" stop-color="#76ABAE"/>
 </linearGradient>
 </defs>
-<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" font-weight="bold" fill="white">90%</text>
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="27" font-family="Arial, sans-serif" font-weight="bold" fill="white">CSS</text>
 
 </svg>
